@@ -25,6 +25,19 @@
 
 - add toc support
   Alter default toc(table of content) and add css for toc.You can find the contract pictures in [tyr.so/add-toc-for-hexo](http://tyr.so/add-toc-for-hexo.html).
+  If you want to display the toc,you should add `toc: true` in the post preprocessing section,such as:
+ ```
+ title: 
+ date: 
+ tags: 
+ - hexo
+ categories: 
+ - hexo
+ permalink: hexo-optimization
+ toc: true
+ ---
+```
+  The default is not display toc.
 
 - add duoshuo support
   The default comment system is disqus which not works well in china.So change it to duoshuo comment system.
@@ -45,14 +58,14 @@
 ---
 **描述：** 为ALEX主题增加了更多的特性，包括：
 - 使用搭建在阿里云OSS+CDN服务上的字体库来代替默认的360字体库(useso.com)。
-  字体url为http://i.chenhd.com/fonts',解析到'i.chenhd.com.w.alikunlun.com',域名是阿里云昆仑架构（CDN）。
+  字体url为'http://i.chenhd.com/fonts',解析到'i.chenhd.com.w.alikunlun.com',域名是阿里云昆仑架构（CDN）。
 - 使用阿里云CDN加速静态文件，包括：
-  jquery.fancybox.css 
-  jquery.fancybox.js 
-  jquery.fancybox.pack.js 
-  jquery.min.js 
-  jquery.scrollLoading.js 
-  script.js
+  - jquery.fancybox.css 
+  - jquery.fancybox.js 
+  - jquery.fancybox.pack.js 
+  - jquery.min.js 
+  - jquery.scrollLoading.js 
+  - script.js
 
   url为 'http://i.chenhd.com/js/'
 
