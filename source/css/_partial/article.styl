@@ -79,18 +79,10 @@
     border-bottom: 1px solid color-border
     padding: 10px 0
   blockquote
-    font-family: font-serif
-    font-size: 1.4em
-    margin: line-height 20px
-    text-align: center
-    footer
-      font-size: font-size
-      margin: 20px 0
-      font-family: font-sans
-      cite
-        &:before
-          content: "—"
-          padding: 0 0.5em
+    background-color: rgba(102, 128, 153, 0.05);
+    border-left: 5px solid rgba(102, 128, 153, 0.075);
+    margin: 0 0 21px;
+    padding: 10.5px 21px;
   .pullquote
     text-align: left
     width: 45%
@@ -383,3 +375,27 @@ $article-gallery-ctrl
   &:before
     content: "\f054"
     right: 15px*/
+
+.toc-article {
+    background: none repeat scroll 0 0 #eee;
+    margin: 2em 0 0 0.5em;
+    padding: 1em;
+}
+.toc-article strong {
+    padding: 0.3em 0;
+}
+#toc {
+    float: right;
+    font-size: 0.8em;
+    line-height: 1em;
+}
+#toc .toc {
+    padding: 0;
+}
+#toc .toc li {
+    list-style-type: none;
+}
+#toc .toc-child {
+    padding-left: 0.7em;
+}
+#toc {margin-top:0px}
