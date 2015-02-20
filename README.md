@@ -58,7 +58,8 @@
 ---
 **描述：** 为ALEX主题增加了更多的特性，包括：
 - 使用搭建在阿里云OSS+CDN服务上的字体库来代替默认的360字体库(useso.com)。
-  字体url为'http://i.chenhd.com/fonts',解析到'i.chenhd.com.w.alikunlun.com',域名是阿里云昆仑架构（CDN）。
+  字体url为`http://i.chenhd.com/fonts`,解析到`i.chenhd.com.w.alikunlun.com`,域名是阿里云昆仑架构（CDN）。
+
 - 使用阿里云CDN加速静态文件，包括：
   - jquery.fancybox.css 
   - jquery.fancybox.js 
