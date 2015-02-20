@@ -1,5 +1,46 @@
-## Attention: A more beautiful and powerful theme for Hexo is now online. - [Hueman](https://github.com/ppoffice/hexo-theme-hueman)
+#ALEX-PLUS theme for Hexo
 
+**Description:** Add more features for alex theme,include:
+
+- use fonts hosted on aliyun OSS+CDN instead of 360 fonts(useso.com).
+  *The fonts url 'http://i.chenhd.com/fonts', resolves to 'i.chenhd.com.w.alikunlun.com',which represent for aliyun CDN service.*
+
+- use aliyun CDN to accelerate static files as:
+  jquery.fancybox.css
+  jquery.fancybox.js
+  jquery.fancybox.pack.js
+  jquery.min.js
+  jquery.scrollLoading.js
+  script.js
+
+   *The url is 'http://i.chenhd.com/js/'*
+
+- add meta language tag
+  It's good for SEO to add meta language.The default language is zh-cn,you can alter it in `themes/alex-plus/layout/_partial/head.ejs`.
+
+- alter blockquote css
+  The default blockquote css is quite disgusting,so i altered the blockquote css.You can find the contract pictures in [tyr.so/hexo-optimization](http://tyr.so/hexo-optimization.html).
+
+- add toc support
+  Alter default toc(table of content) and add css for toc.You can find the contract pictures in [tyr.so/hexo-optimization](http://tyr.so/hexo-optimization.html).
+
+- add duoshuo support
+  The default comment system is disqus which not works well in china.So change it to duoshuo comment system.
+  You have to fill in your duoshuo shortname in the alex-plus `_config.yml` section of `duoshuo_shortname`.
+
+- add return-to-top button
+  When the webpage reach to footer,the button will show up and when you click,the page will return to top.
+  The button picture comes from renren.com.
+  You can alter the arguments in `source/js/totop.js`
+
+- add Baidu statistics
+  If you want to use Baidu statistics,you should remove the annotation in the lin 40 and 50.Then replace the "your-token" in line 45 to your Baidu statistics code.
+
+ 
+**Attention:** If you want more information or see the effect,please visit [tyr.so](http://tyr.so)
+
+
+---
 #Alex
 
 A very simple, elegant and responsive theme for [Hexo].
